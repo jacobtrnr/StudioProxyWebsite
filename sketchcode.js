@@ -27,7 +27,7 @@ function setup() {
   // f = createFont("Arial", h);
   textFont(myFont);
   textSize(h);
-  a = createA('https://studioproxy.squarespace.com/landingpage', link);
+  a = createA('main.html', link);
   a.style('font-size', '30px');
   a.style('font-family', 'Arial');
   a.style('color', 'black');
