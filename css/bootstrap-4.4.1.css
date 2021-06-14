@@ -38,7 +38,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
 }
 
 html {
@@ -62,7 +64,12 @@ body {
   text-align: left;
   background-color: #f8f9fa;
 }
-
+canvas {
+  display: block;
+}
+iframe{ 
+	border: none; 
+	}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
