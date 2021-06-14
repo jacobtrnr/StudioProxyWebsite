@@ -19,7 +19,7 @@ function setup() {
   h = cSize * 0.12;
   spacing = textWidth(message) / message.length;
   let cnv = createCanvas(cSize, cSize * 0.25);
-  cnv.style('display', 'block');
+  //cnv.style('display', 'block');
   cnv.position(0,0);
   frameRate(2);
   textFont(myFont);
