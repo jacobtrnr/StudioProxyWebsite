@@ -20,7 +20,8 @@ function setup() {
   spacing = textWidth(message) / message.length;
   let cnv = createCanvas(cSize, cSize * 0.25);
   //cnv.style('display', 'block');
-  cnv.position(0,0);
+  //cnv.position(100,100);
+  cnv.parent('sketch-container');
   frameRate(2);
   textFont(myFont);
   textSize(h);
@@ -48,7 +49,7 @@ function draw() {
     letters[i].display();
     letters[i].shake();
     }
-  if (frameCount == 2){
+  if (frameCount == 3){
   noLoop();
 }
 }
