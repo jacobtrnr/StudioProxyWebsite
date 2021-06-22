@@ -75,6 +75,66 @@ iframe{
   outline: 0 !important;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* portfolio */
+/* Center website */
+.main {
+  max-width: 1300px;
+  margin: auto;
+  padding: 50px;
+}
+
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  box-shadow: 0px 0px 30px lightgray;
+  padding: 0px;
+  border-radius: 5px;
+  
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1100px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* portfolio END*/
 hr {
   box-sizing: content-box;
   height: 0;
