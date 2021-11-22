@@ -13,7 +13,7 @@ function windowResized() {
 }
 
 let message = 'STUDIO.PROXY';
-let link = 'EXPLORE';
+let link = 'COMING SOON';
 let tStart;
 let seed = 0;
 let h = 70;
@@ -27,7 +27,7 @@ function setup() {
   // f = createFont("Arial", h);
   textFont(myFont);
   textSize(h);
-  a = createA('main.html', link);
+  a = createA('', link); //'main.html'
   a.style('font-size', '30px');
   a.style('font-family', 'Arial');
   a.style('color', 'black');
