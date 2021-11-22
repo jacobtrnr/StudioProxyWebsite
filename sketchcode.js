@@ -59,8 +59,8 @@ function draw() {
   background(255);
   
   
- 
-  rect(tStart * 0.95, (height - h * 1.05) / 2, w * 1.05, h * 1.3);
+ rectMode(CENTER)
+  rect(width/2, (height+h/6) / 2, w * 1.05, h * 1.3);
   for (let i = 0; i < letters.length; i++) {
 
 
